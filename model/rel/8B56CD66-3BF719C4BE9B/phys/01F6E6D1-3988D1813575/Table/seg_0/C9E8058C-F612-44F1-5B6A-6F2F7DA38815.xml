@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="REGIONS" directorySegmentName="seg_0" id="C9E8058C-F612-44F1-5B6A-6F2F7DA38815">
+<createdBy>foral</createdBy>
+<createdTime>2025-05-21 03:38:45 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<schemaObject>87A4C577-7ADB-0704-B043-3F3473C4EA07</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>5E5F3449-8EB3-65FD-683C-8E3ED8F56B03</segment>
+<tableSpace>15F6C1D0-E282-FCDE-DF66-5796492B3859</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="REGION_ID" id="029E7323-AF5D-C3DC-B009-5FDF47343AD6">
+<createdBy>foral</createdBy>
+<createdTime>2025-05-21 03:38:45 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REGION_NAME" id="1F97ACFB-8E93-4AF3-5511-EAF8C155388E">
+<createdBy>foral</createdBy>
+<createdTime>2025-05-21 03:38:45 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="REG_ID_PK" id="BFF4C5E3-FC03-F962-1F87-28351D26F6D9">
+<createdBy>foral</createdBy>
+<createdTime>2025-05-21 03:38:45 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<schemaObject>87A4C577-7ADB-0704-B043-3F3473C4EA07</schemaObject>
+<segment>4C5C5268-6AD6-C52D-3A15-3B1B4ADD3424</segment>
+<tableSpace>15F6C1D0-E282-FCDE-DF66-5796492B3859</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="REG_ID_PK" id="5F8855A0-F798-2984-2BD8-4CA6F6D69B13">
+<createdBy>foral</createdBy>
+<createdTime>2025-05-21 03:38:45 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<segment>4C5C5268-6AD6-C52D-3A15-3B1B4ADD3424</segment>
+<tableSpace>15F6C1D0-E282-FCDE-DF66-5796492B3859</tableSpace>
+<existingIndex>BFF4C5E3-FC03-F962-1F87-28351D26F6D9</existingIndex>
+<indexSegment>4C5C5268-6AD6-C52D-3A15-3B1B4ADD3424</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

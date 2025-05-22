@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="userTBL" directorySegmentName="seg_0" id="0DC43507-824E-8F7E-4BB9-DAACB2A8AE4B">
+<createdBy>foral</createdBy>
+<createdTime>2025-05-21 03:38:41 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="userName" id="2FFB6E0B-BAC2-77CC-160B-5904A6F3D2F5">
+<createdBy>foral</createdBy>
+<createdTime>2025-05-21 03:38:41 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="mobile" id="40010165-D428-7177-058D-965B05ED1871">
+<createdBy>foral</createdBy>
+<createdTime>2025-05-21 03:38:41 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="birthYear" id="72AAE9F0-5ABE-B6C1-4C30-AC06A48DA25A">
+<createdBy>foral</createdBy>
+<createdTime>2025-05-21 03:38:41 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="addr" id="C4D82D73-1EEF-3662-41DA-99A68EA3968D">
+<createdBy>foral</createdBy>
+<createdTime>2025-05-21 03:38:41 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="userTBL_PK" id="6F565CBA-6450-9DB0-6F29-3F53CD4E6B57">
+<createdBy>foral</createdBy>
+<createdTime>2025-05-21 03:38:41 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

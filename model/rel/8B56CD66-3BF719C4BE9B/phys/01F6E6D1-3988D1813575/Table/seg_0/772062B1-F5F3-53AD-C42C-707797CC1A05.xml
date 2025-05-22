@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="JOBS" directorySegmentName="seg_0" id="772062B1-F5F3-53AD-C42C-707797CC1A05">
+<createdBy>foral</createdBy>
+<createdTime>2025-05-21 03:38:45 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<schemaObject>87A4C577-7ADB-0704-B043-3F3473C4EA07</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>5E5F3449-8EB3-65FD-683C-8E3ED8F56B03</segment>
+<tableSpace>15F6C1D0-E282-FCDE-DF66-5796492B3859</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="MAX_SALARY" id="12EA4151-DBA2-A031-EAEB-6A777C962CD8">
+<createdBy>foral</createdBy>
+<createdTime>2025-05-21 03:38:45 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MIN_SALARY" id="5838D5C0-A54A-893C-AD16-C530184CA41A">
+<createdBy>foral</createdBy>
+<createdTime>2025-05-21 03:38:45 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="JOB_TITLE" id="7D9F259D-74B1-BD57-2EFD-3896F5E346B5">
+<createdBy>foral</createdBy>
+<createdTime>2025-05-21 03:38:45 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="JOB_ID" id="CCABD342-2A05-C877-6C3C-AD3BF9B5DE37">
+<createdBy>foral</createdBy>
+<createdTime>2025-05-21 03:38:45 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="JOB_ID_PK" id="A6F1DC4D-4ADC-F0EA-B8D8-B73761DE749E">
+<createdBy>foral</createdBy>
+<createdTime>2025-05-21 03:38:45 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<schemaObject>87A4C577-7ADB-0704-B043-3F3473C4EA07</schemaObject>
+<segment>4C5C5268-6AD6-C52D-3A15-3B1B4ADD3424</segment>
+<tableSpace>15F6C1D0-E282-FCDE-DF66-5796492B3859</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="JOB_ID_PK" id="245ACFB1-EF46-34DD-1101-E67215389B2F">
+<createdBy>foral</createdBy>
+<createdTime>2025-05-21 03:38:45 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<segment>4C5C5268-6AD6-C52D-3A15-3B1B4ADD3424</segment>
+<tableSpace>15F6C1D0-E282-FCDE-DF66-5796492B3859</tableSpace>
+<existingIndex>A6F1DC4D-4ADC-F0EA-B8D8-B73761DE749E</existingIndex>
+<indexSegment>4C5C5268-6AD6-C52D-3A15-3B1B4ADD3424</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

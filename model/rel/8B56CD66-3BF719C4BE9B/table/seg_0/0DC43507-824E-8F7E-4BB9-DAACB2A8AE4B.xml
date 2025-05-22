@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0DC43507-824E-8F7E-4BB9-DAACB2A8AE4B" name="userTBL">
+<createdBy>foral</createdBy>
+<createdTime>2025-05-21 02:18:17 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="mobile" id="40010165-D428-7177-058D-965B05ED1871">
+<createdBy>foral</createdBy>
+<createdTime>2025-05-21 02:24:59 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>12 CHAR</dataTypeSize>
+<ownDataTypeParameters>12 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="userName" id="2FFB6E0B-BAC2-77CC-160B-5904A6F3D2F5">
+<createdBy>foral</createdBy>
+<createdTime>2025-05-21 02:28:46 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<ownDataTypeParameters>4 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="birthYear" id="72AAE9F0-5ABE-B6C1-4C30-AC06A48DA25A">
+<createdBy>foral</createdBy>
+<createdTime>2025-05-21 02:30:01 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="addr" id="C4D82D73-1EEF-3662-41DA-99A68EA3968D">
+<createdBy>foral</createdBy>
+<createdTime>2025-05-21 02:30:52 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6F565CBA-6450-9DB0-6F29-3F53CD4E6B57" name="userTBL_PK">
+<createdBy>foral</createdBy>
+<createdTime>2025-05-21 02:24:59 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40010165-D428-7177-058D-965B05ED1871"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

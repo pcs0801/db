@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A87A3409-9CBD-4F22-744E-D6093929E537" name="buyTBL">
+<createdBy>foral</createdBy>
+<createdTime>2025-05-21 02:36:04 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="no" id="C871C032-3982-C415-647D-4EC5555DC3A5">
+<createdBy>foral</createdBy>
+<createdTime>2025-05-21 02:37:31 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prodName" id="B14571EC-88BB-ED3D-E657-0BAAC4A90A12">
+<createdBy>foral</createdBy>
+<createdTime>2025-05-21 02:38:32 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="price" id="435CAAD2-3559-A0B9-194F-09989BC683A6">
+<createdBy>foral</createdBy>
+<createdTime>2025-05-21 02:39:34 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="amount" id="B965AF68-A159-3202-5EE4-2395609F9C77">
+<createdBy>foral</createdBy>
+<createdTime>2025-05-21 02:39:43 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mobile" id="84B54856-0B41-85A8-CC11-871080683960">
+<createdBy>foral</createdBy>
+<createdTime>2025-05-21 02:44:19 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>12 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="97238E75-5461-11BC-727A-A4603CC5431E" referredColumn="40010165-D428-7177-058D-965B05ED1871"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="80B235A3-C8AB-D78D-959E-670F30BB3687" name="buyTBL_PK">
+<createdBy>foral</createdBy>
+<createdTime>2025-05-21 02:37:31 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C871C032-3982-C415-647D-4EC5555DC3A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB2D730E-34DD-A41F-7B81-83C49C618A8D" name="buyTBL_userTBL_FK">
+<createdBy>foral</createdBy>
+<createdTime>2025-05-21 02:44:19 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84B54856-0B41-85A8-CC11-871080683960"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

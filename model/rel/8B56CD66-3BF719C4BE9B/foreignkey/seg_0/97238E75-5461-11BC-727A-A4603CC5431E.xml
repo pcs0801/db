@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="97238E75-5461-11BC-727A-A4603CC5431E" containerWithKeyObject="A87A3409-9CBD-4F22-744E-D6093929E537" localFKIndex="BB2D730E-34DD-A41F-7B81-83C49C618A8D" name="buyTBL_userTBL_FK">
+<createdBy>foral</createdBy>
+<createdTime>2025-05-21 02:44:19 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>userTBL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0DC43507-824E-8F7E-4BB9-DAACB2A8AE4B</referredTableID>
+<keyObject>6F565CBA-6450-9DB0-6F29-3F53CD4E6B57</keyObject>
+<referredKeyID>6F565CBA-6450-9DB0-6F29-3F53CD4E6B57</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>mobile</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorColumn>40010165-D428-7177-058D-965B05ED1871</discriminatorColumn>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
