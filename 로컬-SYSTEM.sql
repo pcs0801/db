@@ -4,12 +4,12 @@ ALTER SESSION SET "_ORACLE_SCRIPT"=true;
 drop user MODEL cascade;
 
 -- 새로운 사용자 생성(MODEL)
-create user MODEL identified by 1234
+create user BOARDUSER identified by 1234
     default tablespace users
     temporary tablespace temp;
     
 -- 권한 부여(MODEL)
-grant connect, resource, dba to MODEL;
+grant connect, resource, dba to BOARDUSER;
 
 -- 테이블 스페이스 생성(데이터베이스가 저장 될 공간)
 CREATE TABLESPACE FIRSTDATA
