@@ -32,4 +32,11 @@ CREATE SEQUENCE AOPMEMBER_SEQ
 START WITH 1
 INCREMENT BY 1;
 
-SELECT * FROM AOPMEMBER;
+SELECT * FROM MEMBER;
+DROP TABLE MEMBER;
+
+DESC MEMBER;
+
+
+select member_seq_generator.nextval from dual;
+select member_seq.nextval from dual;
